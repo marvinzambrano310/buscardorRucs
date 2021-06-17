@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Buscador de RUCs.exe" version="1.0.0.2" publicKeyToken="33ed28e6bf0457b3" language="es-EC" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Buscador de RUCs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Buscador de RUCs.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Buscador de RUCs.exe" size="14269104">
+      <assemblyIdentity name="Buscador de RUCs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PR1Ew9E78lunf8bTvkzDBE/sIgbcDFzV31m8+C7h9ew=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Buscador de RUCs.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\AR.txt" size="1229107">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ciqkSwWRHsWyI3cDro1zuQl3o+IwsfOp0G1eFmBv88A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CE.txt" size="78907">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yFaW7KmpebYuV5vDKqbnJgFzi6eAZmRuCIFNx70Tgww=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\DFWEOWHCQZAMRNH7ALRFQYVPTU.jpg" size="5646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eR8WxGW2lGLd2VAuCJK2TIxWn2ICU9c1e7LDpHD0IXU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\EX.txt" size="17032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bP322fUcrNQoOGBejDtHK+EDmnyr95cTB8kdALVUpGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\FA.txt" size="14272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KJFiofpANjAecqP29D5P3lyrbG3is+afXaJmaZIoy2I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\GC.txt" size="7507">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uq9yZWJrb9k/NZcN8ZmxEgK/9Yk22xR22g6YW5le0RQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ME.txt" size="12757807">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iiRKTFdOEukX4pdNQC+vLLhfx4zF0yJitx/CLqJPayk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\right-600x400-1.jpg" size="12464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4jeChViuLadhFNjFaBwhUkMiY4HkPAVhx79L5MiyI7I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="C=EC, O=SECURITY DATA S.A. 2, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, SERIALNUMBER=051120203938, CN=MARVIN ANIBAL ZAMBRANO GILER" issuerKeyHash="8cbaca11577825801d6b0a4b55bf8dae62ddbd8f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aZMP8JPOFDtF9MaftYLUIvcm05MqjCBCumDCjUEZ2/U=</DigestValue></Reference></SignedInfo><SignatureValue>i3gMjALTHUCczCkiZ03dCPXei9vdcatbW+nXJjV27xLgiYC2s1xIMmJlG7X1bhyb2BUpoE7vyLW4pmdgFGtwl9z1HiUuRyiJwnRxFfkgqeUaVfE2I6SOpAaXPnnSgTYr05/GK1L0OLf+47mFli1usPR7c91jT41wwGFJRGcnuavTQyJosLN+FDtU78mdFsSyj3grhDoiSGosDGKPHlVrcVm+V/b3iss3gVJXsfN4ZSFXtxaoRuBRGxDLHNovmolVeBUYR1tX9/vziWsAVoi4sh+7NtVNFriS+nx4p9tN8+3ioHp1zNK2GES8lwz/1T2No96uxlpcq82bG6u69Ub3Yg==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zRn9CZp1JJLjM/LFYcVZuynu6coGBNhq0DWehS18wmc2LVgLFpKD6PivnkXqWA1xHp2oPeoGEEAGRXShkZIsyLlXgg99G09TSk6lgWLac39KeDzD/B5DgQyOFzWwjZx65LYdoJhY1C2MOwDhUn0YQk2luEkF8owP0L4E3mVN9wAAVE0rVR8HAw9Hg3yB4kJfV+v2eCzBvb+6rahZP+eyjKSCBKPSlrWjA8nSPGalWvJkBDuh6+vdRf+Eq1C6Xymuext7/wC3mpbvdcfQ4jTfrs7TnyzlhrhM2UcK3IzXXSsAuOnuii8y85+9pUeTTM11L2HJ/WAt3jwQ55/mttiAqw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5db19418dc260ba42208c2a93d326f722d482b59fc6f4453b14ce93f00f9369" Description="" Url=""><as:assemblyIdentity name="Buscador de RUCs.exe" version="1.0.0.2" publicKeyToken="33ed28e6bf0457b3" language="es-EC" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>C=EC, O=SECURITY DATA S.A. 2, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, SERIALNUMBER=051120203938, CN=MARVIN ANIBAL ZAMBRANO GILER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4hIoYPPyZY/pcd+dHTluCBv1xbhcHNn6YRED8DhiEoY=</DigestValue></Reference></SignedInfo><SignatureValue>sMxkYjmfs5ixbAeKtVXdZigcXXPqDudNRPQ2Af+lQ35vCjRGKy/WntFQwsGWzlurxicsFHJsvpDsKdNiuy++RYonL5M5NBq8FEszHe1ReQxw1oOmCAN/hgn9IN8sPLe3LWUOPTnV4nPtV6ujxXhPKXYjgpbc1nije3gOaWH9jLL2iOatsumGxEucpvl5pQoDwXNJp8G/IUmLbUBeJI60IETM6ANRsOBhny5pfA8m3OC3N5399u1Fc7h7KenHUEjWDS+6IsefsdLROT65K6im+qiDRVrQyZMRO+kcKdSBPVYE2KCfbfrAaHncMXN1Y5ekh0SqnO4jqh35Iz6iriLHvQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zRn9CZp1JJLjM/LFYcVZuynu6coGBNhq0DWehS18wmc2LVgLFpKD6PivnkXqWA1xHp2oPeoGEEAGRXShkZIsyLlXgg99G09TSk6lgWLac39KeDzD/B5DgQyOFzWwjZx65LYdoJhY1C2MOwDhUn0YQk2luEkF8owP0L4E3mVN9wAAVE0rVR8HAw9Hg3yB4kJfV+v2eCzBvb+6rahZP+eyjKSCBKPSlrWjA8nSPGalWvJkBDuh6+vdRf+Eq1C6Xymuext7/wC3mpbvdcfQ4jTfrs7TnyzlhrhM2UcK3IzXXSsAuOnuii8y85+9pUeTTM11L2HJ/WAt3jwQ55/mttiAqw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIILujCCCaKgAwIBAgIEa+yCvzANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMDExMDYwMTI5NDFaFw0yMTExMDYwMTI5NDFaMIGcMSUwIwYDVQQDDBxNQVJWSU4gQU5JQkFMIFpBTUJSQU5PIEdJTEVSMRUwEwYDVQQFEwwwNTExMjAyMDM5MzgxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzRn9CZp1JJLjM/LFYcVZuynu6coGBNhq0DWehS18wmc2LVgLFpKD6PivnkXqWA1xHp2oPeoGEEAGRXShkZIsyLlXgg99G09TSk6lgWLac39KeDzD/B5DgQyOFzWwjZx65LYdoJhY1C2MOwDhUn0YQk2luEkF8owP0L4E3mVN9wAAVE0rVR8HAw9Hg3yB4kJfV+v2eCzBvb+6rahZP+eyjKSCBKPSlrWjA8nSPGalWvJkBDuh6+vdRf+Eq1C6Xymuext7/wC3mpbvdcfQ4jTfrs7TnyzlhrhM2UcK3IzXXSsAuOnuii8y85+9pUeTTM11L2HJ/WAt3jwQ55/mttiAqwIDAQABo4IHAzCCBv8wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCBvqCBu4aBuGxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0YVJldm9jYXRpb25MaXN0P2Jhc2UwHgYDVR0RBBcwFYETbWF6ZzMxMDk5QGdtYWlsLmNvbTCCAQYGA1UdIASB/jCB+zBaBgorBgEEAYKmcgIHMEwwSgYIKwYBBQUHAgIwPh48AEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAFAAZQByAHMAbwBuAGEAIABOAGEAdAB1AHIAYQBsMIGcBgorBgEEAYKmcgIBMIGNMIGKBggrBgEFBQcCARZ+aHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBQZXJzb25hIE5hdHVyYWwucGRmMIICogYDVR0fBIICmTCCApUwgeWgQaA/hj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIHHoIHEoIHBhoG+bGRhcDovL2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZTCB4KCB3aCB2oaB12h0dHBzOi8vcG9ydGFsLW9wZXJhZG9yMi5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi93ZWJkaXN0L2NlcnRkaXN0P2NtZD1jcmwmaXNzdWVyPUNOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDMB0GA1UdDgQWBBTPxeqDsOjuJrgNEl8ypLFmhj92WzArBgNVHRAEJDAigA8yMDIwMTEwNjAxMjk0MVqBDzIwMjExMTA2MDEyOTQxWjALBgNVHQ8EBAMCBeAwGgYKKwYBBAGCpnIDAQQMDAoxNzUwODA0NTY3MBUGCisGAQQBgqZyAwkEBwwFUVVJVE8wEQYKKwYBBAGCpnIDIgQDDAEuMD0GCisGAQQBgqZyAwcELwwtQ0FMTEUgTk9SQkVSVE8gU0FMQVpBUiBONyAxNTEgWSBQQVNBSkUgVE9SUkVTMB0GCisGAQQBgqZyAwIEDwwNTUFSVklOIEFOSUJBTDAfBgorBgEEAYKmcgMgBBEMDzAwMjAwMTAwMDEwMzk0MDARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBgGCisGAQQBgqZyAwMECgwIWkFNQlJBTk8wEQYKKwYBBAGCpnIDHgQDDAEuMBEGCisGAQQBgqZyAx0EAwwBLjAVBgorBgEEAYKmcgMEBAcMBUdJTEVSMBsGCisGAQQBgqZyAwgEDQwLNTkzMjIzNzAyNzIwDQYJKoZIhvcNAQELBQADggIBACfvSvloFHn75oGhttW0/a8erIDPk3Tx+5BxCj3dgdBqBL2h1mBjtkfvkM3Sxusy8a23/sZ2awYGsy4zd737rVhGjCDQDmtAozX30cT6BI35keXhLvKduRYpRwB03cg3kl5cL/xzep0J8ljwGFPZ0q0kfdkKlchQoYfopsiyCVajiXf5mB/JFiJ9mlErwONvUtgMWTlJyEMWwDoKL1KhMXx8x2IFMQYcQnKsGmVZbfasWPou4pqQoqcTJXgVjdPtPrIVQR0qOwDhvmnoXp8jvDC3TkVpBm8Rct9OTo3zwo8nTPOuyZtDotlliiwzbnUOOe8m2ZMVm1vWsuLTnq7boiWT0J5z9XoTZYCW1HSwomiEAthx9gkk6UgQ5FlUVAjYZAxWXFkWq/8o8o5DD7XyOdWR55ERWJs8acnhmJrsXp517J+mQxD0s/bywBr0G2tIQFGOZLQt/SES3Si8tcAQlPmLPT9jd1TEASZEZ+ucYSBBe7B4G410YGCEK9gzy4OBx3Ny+F/t6wIq6UCsMorlDKGquTEma5SATk+1FDnbLoOCiF6LWFDuoB+5pK2uDpBrJKIAinVnrsTfmtbspPn33tbnsjhJgg2PiQFiAn7tMYK3eGkWuIGd2IYxaf+hj9m5iJ4BPUpuxptuWumRNAjdxopHs19ZzR0RzwJ1YSjpFLWA</X509Certificate><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscadro de RUCs.csprojAssemblyReference.cache
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscadro_de_RUCs.Form1.resources
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscadro_de_RUCs.Properties.Resources.resources
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscadro de RUCs.csproj.GenerateResource.cache
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscadro de RUCs.csproj.CoreCompileInputs.cache
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\bin\Release\Buscador de RUCs.exe.config
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\bin\Release\Buscador de RUCs.exe.manifest
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\bin\Release\Buscador de RUCs.application
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\bin\Release\Buscador de RUCs.exe
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\bin\Release\Buscador de RUCs.pdb
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscador de RUCs.exe.manifest
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscador de RUCs.application
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscador de RUCs.exe
+C:\Users\marvin.zambrano\Documents\Visual Studio 2019\Buscadro de RUCs\Buscadro de RUCs\obj\Release\Buscador de RUCs.pdb
